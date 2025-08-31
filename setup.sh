@@ -20,4 +20,8 @@ port = $PORT\n\
 # Replace <FILE_ID> with the actual Google Drive file ID
 
 # Example for similarity.pkl
-gdown --id 1rybXUErlPrdx1Y57z-P7yow1s9ZhjmjJ -O similarity.pkl
+# ---- DOWNLOAD LARGE FILES FROM GOOGLE DRIVE ----
+gdown --fuzzy "https://drive.google.com/file/d/1rybXUErlPrdx1Y57z-P7yow1s9ZhjmjJ/view?usp=sharing" -O similarity.pkl
+
+#gdown --id 1rybXUErlPrdx1Y57z-P7yow1s9ZhjmjJ -O similarity.pkl
+#https://drive.google.com/file/d/1rybXUErlPrdx1Y57z-P7yow1s9ZhjmjJ/view?usp=sharing
