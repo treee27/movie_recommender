@@ -1,5 +1,5 @@
 #!/bin/bash
-
+pip install gdown
 # Create Streamlit config
 mkdir -p ~/.streamlit/
 
