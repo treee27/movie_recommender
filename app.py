@@ -2,6 +2,11 @@ import pickle
 import streamlit as st
 import requests
 
+
+
+with open("similarity.pkl", "rb") as f:
+    similarity = pickle.load(f)
+
 def fetch_poster(movie_id):
     url = "https://api.themoviedb.org/3/movie/{}?api_key=614e147ba16136e44cff12baffe08769&language=en-US".format(movie_id)
     data = requests.get(url)
